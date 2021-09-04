@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(240, 236, 236);
+      }
+
+      h1 {
+        text-align: center;
+        font-family: monospace;
+        font-size: 50px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        padding: 10px;
+        margin: 30px;
+        text-transform: uppercase;
+      }
+
+      div {
+        border-radius: 30px;
+        box-shadow: 27px -16px 21px 8px rgb(0 0 0 / 50%);
+        padding: 20px;
+        margin: auto;
+        width: 80%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      div img {
+        border-radius: 50%;
+      }
+
+      div section span {
+        font-size: 40px;
+        display: block;
+        margin: 20px;
+      }
+
+      i {
+        margin: 20px;
+        cursor: pointer;
+        font-size: 30px;
+        position: relative;
+      }
+
+      i:hover {
+        color: rgba(255, 0, 0, 0.5);
+        transform: scale(1.5);
+      }
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      @media only screen and (max-width: 1000px) {
+        div{
+            flex-direction: column;
+            width: 80%;
+        }
+       section{
+           align-items: center;
+           justify-content: center;
+       }
+       section span{
+           font-size: 30px;
+       }
+       img{
+           height: 250px;
+           width: 250px;
+       }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>MY Profile</h1>
+    <div>
+      <img height="400" width="400" src="./paras.jpg" alt="my photo" />
+      <section
+        style="display: flex; flex-direction: column; justify-content: center"
+      >
+        <span>Name : Paras Punjabi</span>
+        <span>College : NIT Patna</span>
+        <span>Branch : Computer Science Engineering</span>
+        <span
+          >Skills : MERN Stack Developer, JavaScript and Python Programmer</span
+        >
+        <span style="display: flex">
+          <a
+            target="_blank"
+            title="Instagram"
+            href="https://www.instagram.com/paras.punjabi.7/"
+          >
+            <i class="fab fa-instagram"></i
+          ></a>
+          <a
+            target="_blank"
+            title="Facebook"
+            href="https://www.facebook.com/paras.punjabi.7/"
+          >
+            <i class="fab fa-facebook"></i
+          ></a>
+          <a
+            target="_blank"
+            title="GitHub"
+            href="https://www.github.com/Paras-Punjabi"
+          >
+            <i class="fab fa-github"></i
+          ></a>
+          <a
+            title="Whatsapp"
+            target="_blank"
+            href="https://api.whatsapp.com/send/?phone=918989834510&text=Hi%20Paras&app_absent=0"
+          >
+            <i class="fab fa-whatsapp"></i
+          ></a>
+        </span>
+      </section>
+    </div>
+  </body>
+</html>
