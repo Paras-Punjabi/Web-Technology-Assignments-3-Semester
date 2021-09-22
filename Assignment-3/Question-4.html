@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classes in CSS Part-2</title>
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGlQKXoCBrDPK5OGf5uvu7GTzsO1x3ni5KOA&usqp=CAU" type="image/x-icon">
+    <style>
+      .Big {
+        font-size: 20px;
+      }
+
+      p.Big {
+        font-size: 20px;
+        background-color: green;
+      }
+
+      *:not(p):not(html):not(body){
+        background-color: blanchedalmond;
+      }
+
+      *:not(html):not(body){
+        padding: 10px;
+        text-align: center;
+        font-family: monospace;
+        text-transform: uppercase;
+        border-radius: 10px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Big">This is a div element</div>
+    <article class="Big">This is an article element</article>
+    <header class="Big">This is a header element</header>
+    <p class="Big">This is a paragraph element</p>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Other CSS Selectors</title>
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGlQKXoCBrDPK5OGf5uvu7GTzsO1x3ni5KOA&usqp=CAU" type="image/x-icon">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(218 218 218 / 50%);
+      }
+      article {
+        border-radius: 10px;
+        font-size: 30px;
+        width: 80%;
+        margin: auto;
+        margin-top: 8vh;
+        padding: 10px;
+        box-shadow: 20px -20px 30px rgba(0, 0, 0, 0.6);
+        background-color: rgb(252, 248, 244);
+      }
+
+      h1,
+      h3 {
+        text-align: center;
+        font-size: 80px;
+        font-family: monospace;
+        text-transform: uppercase;
+      }
+      h3 {
+        font-size: 40px;
+        margin: 10px 0 -10px 0;
+      }
+
+      ol > li {
+        background-color: rgb(220, 220, 198);
+        border-radius: 10px;
+        padding: 5px;
+        margin: 20px;
+        color: rgb(22, 2, 2);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+      ol > li:hover {
+        transform: scale(1.03);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Descendant CSS Selector (>)</h1>
+    <article>
+      <h3>(-:Computer Science Technologies:-)</h3>
+      <ol>
+        <li>Web Development ( mern || mean || mevn || php/mysql .... )</li>
+        <li>Android development ( Kotlin || Java .... )</li>
+        <li>
+          Data structures and algorithm ( c|c++ || Python || JavaScript .... )
+        </li>
+        <li>Machine Learning ( Pyhton || JavaScript || r .... )</li>
+        <li>gui development ( Python || Java || JavaScript .... )</li>
+      </ol>
+    </article>
+  </body>
+</html>
