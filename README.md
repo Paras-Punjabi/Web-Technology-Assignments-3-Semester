@@ -13,3 +13,5 @@
 4. [Question-4](https://paras-punjabi.github.io/Web-Technology-Assignments-3-Semester/Assignment-3/Question-4.html)
 
 ### ASSIGNMENT-4
+1. [Question-1](https://paras-punjabi.github.io/Web-Technology-Assignments-3-Semester/Assignment-4/Question1.html)
+2. [Question-2](https://paras-punjabi.github.io/Web-Technology-Assignments-3-Semester/Assignment-4/Question2.html)
