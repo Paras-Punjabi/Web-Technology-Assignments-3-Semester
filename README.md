@@ -15,3 +15,9 @@
 ### ASSIGNMENT-4
 1. [Question-1](https://paras-punjabi.github.io/Web-Technology-Assignments-3-Semester/Assignment-4/Question1.html)
 2. [Question-2](https://paras-punjabi.github.io/Web-Technology-Assignments-3-Semester/Assignment-4/Question2.html)
+
+### WEB THEORY ASSIGNMENT-3
+1. [Task-1]()
+2. [Task-2]()
+3. [Task-3]()
+4. [Task-4]()
