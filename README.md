@@ -23,4 +23,4 @@
 4. [Task-4](https://paras-punjabi.github.io/Web-Technology-Assignments-3-Semester/Web%20Theory%20Assignment-3/task4.html)
 
 ### ASSIGNMENT-5
-[ALL QUESTIONS]()
+[ALL QUESTIONS](https://paras-punjabi.github.io/Web-Technology-Assignments-3-Semester/Assignment-5/index.html)
