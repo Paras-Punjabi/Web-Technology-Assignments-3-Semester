@@ -24,3 +24,6 @@
 
 ### ASSIGNMENT-5
 [ALL QUESTIONS](https://paras-punjabi.github.io/Web-Technology-Assignments-3-Semester/Assignment-5/index.html)
+
+### ASSIGNMENT-6
+[Question-1](https://paras-punjabi.github.io/Web-Technology-Assignments-3-Semester/Assignment-6/index.html)
